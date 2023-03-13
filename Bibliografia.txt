@@ -1,0 +1,8 @@
+BASE DE DATOS:
+https://www.kaggle.com/datasets/rankirsh/evolution-of-top-games-on-twitch
+https://www.elpais.com.co/mundial-qatar-2022/la-final-del-rompio-todos-los-records-en-audiencia-de-television.html
+https://www.fifa.com/es/tournaments/mens/worldcup/qatar2022/news/la-copa-mundial-de-la-fifa-bate-records-de-audiencia-televisiva
+https://vertele.eldiario.es/audiencias-tv/domingo-18-diciembre-2022-argentina-campeona-penaltis-mundial-qatar-ante-12-millones-espectadores-la-1_1_9805499.html
+PAGINAS OFICIALES:
+https://lottiefiles.com/
+https://streamlit.io/
