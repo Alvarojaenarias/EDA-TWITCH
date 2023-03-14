@@ -5,4 +5,3 @@ plotly==5.13.1
 pydeck==0.8.0
 streamlit==1.20.0
 streamlit_lottie==0.0.3
-~treamlit==1.19.0
