@@ -14,7 +14,7 @@ def config_page():
 def home():
     st.title(":video_game:_:blue[VISUALIZACIONES DE LOS CANALES DE VIDEOJUEGOS EN LA PLATAFORMA TWITCH]_:video_game:")
     
-    img =Image.open("EDA/imagen/introduccion.jpeg")
+    img =Image.open("Imagenes/introduccion.jpeg")
     st.image(img,use_column_width="always")
     
     st.subheader(':red[Introducción]')

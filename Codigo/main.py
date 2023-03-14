@@ -39,26 +39,26 @@ elif menu == 'Juegos mas visualizados':
         st.plotly_chart(fig_vistos_2022, use_container_width=True)
     with st.expander("JUEGOS MAS VISUALIZADOS EN 7 AÑOS:trophy:"):
         st.plotly_chart(fig_vistos_total, use_container_width=True)
-    img =Image.open("EDA/imagen/minecraft.jpg")
+    img =Image.open("Imagenes/minecraft.jpg")
     st.image(img,use_column_width="always")
 elif menu == 'Tipo de juego':
     fig_tipo_juegos = ft.tipo_juegos()
     with st.expander("TIPO DE JUEGOS MAS VISUALIZADOS EN 7 AÑOS:european_castle:"):
         st.plotly_chart(fig_tipo_juegos, use_container_width=True)
-    img =Image.open("EDA/imagen/apex.png")
+    img =Image.open("Imagenes/apex.png")
     st.image(img,use_column_width="always")
 elif menu == 'Tendencia visualizaciones':
     fig_viewers = ft.viewers()
     with st.expander("HISTORIAL TOTAL VISUALIZACIONES CADA AÑO EN 7 AÑOS:dragon:"):
         st.plotly_chart(fig_viewers, use_container_width=True)
         
-    img =Image.open("EDA/imagen/amongus.jpg")
+    img =Image.open("Imagenes/amongus.jpg")
     st.image(img,use_column_width="always")
 elif menu == 'Visualizaciones por mes':
     fig_viewers_mes = ft.viewer_mes()
     with st.expander("VISUALIZACIONES POR CADA MES:space_invader:"):
         st.plotly_chart(fig_viewers_mes, use_container_width=True) 
-    img =Image.open("EDA/imagen/wow.jpg")
+    img =Image.open("Imagenes/wow.jpg")
     st.image(img,use_column_width="always")  
  
 elif menu == 'Comparativa' :
@@ -74,11 +74,11 @@ elif menu == 'Comparativa' :
                 * Máxima audiencia en la Final del mundial 2022 Catar (Argentina-Francia) en FRANCIA - (TF1 -Television francesa) \n
                 """)
         st.plotly_chart(fig_comparativa, use_container_width=True)  
-    img =Image.open("EDA/imagen/lol.jpg")
+    img =Image.open("Imagenes/lol.jpg")
     st.image(img,use_column_width="always")
 else:
     st.header('Conclusiones')
     ft.conclusiones()
-    with open("EDA/imagen/gift 2.json") as source:
+    with open("Imagenes/gift 2.json") as source:
         animation = json.load(source)
     st_lottie(animation, height=1000, width=1000)
