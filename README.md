@@ -2,6 +2,7 @@
 **EDA Visualizaciones de los canales de videojuegos en la plataforma Twitch**
 
 *El principal motivo  de esta elección como tema del proyecto EDA de mi Bootcamp como Data Science es debido al aumento en el interés, seguimiento y uso de la plataforma Twitch desde el inicio de la pandemia por COVID-19.*
+
 Hace 10 años había eventos en las ciudades dónde se jugaban los torneos e iban los jugadores más “Top” a nivel mundial que solo lo conocías si eran muy fan de esos juegos. 
 Desde hace pocos años este “seguimiento” lo tienes a un “click” desde tu casa. Con una variedad de juegos infinita puedes ver desde canales oficiales con presentadores a personas jugando desde su casa, siendo el mejor del mundo o tu vecino de enfrente. 
 El aumento de esta plataforma ha sido tan exitosa que ya es conocida mundialmente en personas de todas las edades, ya que es el “sustituto” de la televisión junto a otras plataformas de series y peliculas.
