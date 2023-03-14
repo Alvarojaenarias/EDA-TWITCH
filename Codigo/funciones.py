@@ -41,7 +41,7 @@ def home():
                 * ¿Oscilan las visualizaciones según el mes del año?\n
                 """)
 def juegos_vistos_2016(): 
-    df_juegos_2016 = pd.read_csv('EDA/CSV/juegos mas jugados al año/juegos2016.csv')
+    df_juegos_2016 = pd.read_csv('Codigo/CSV/juegos mas jugados al año/juegos2016.csv')
     pie1 = df_juegos_2016['Hours_watched']
     labels = df_juegos_2016["Game"]
          
@@ -70,7 +70,7 @@ def juegos_vistos_2016():
     }
     return fig
 def juegos_vistos_2017(): 
-    df_juegos_2017 = pd.read_csv('EDA/CSV/juegos mas jugados al año/juegos2017.csv')
+    df_juegos_2017 = pd.read_csv('Codigo/CSV/juegos mas jugados al año/juegos2017.csv')
     pie1 = df_juegos_2017['Hours_watched']
     labels = df_juegos_2017["Game"]
         
@@ -99,7 +99,7 @@ def juegos_vistos_2017():
     }
     return fig
 def juegos_vistos_2018(): 
-    df_juegos_2018 = pd.read_csv('EDA/CSV/juegos mas jugados al año/juegos2018.csv')
+    df_juegos_2018 = pd.read_csv('Codigo/CSV/juegos mas jugados al año/juegos2018.csv')
     pie1 = df_juegos_2018['Hours_watched']
     labels = df_juegos_2018["Game"]
          
@@ -128,7 +128,7 @@ def juegos_vistos_2018():
     }
     return fig
 def juegos_vistos_2019(): 
-    df_juegos_2019 = pd.read_csv('EDA/CSV/juegos mas jugados al año/juegos2019.csv')
+    df_juegos_2019 = pd.read_csv('Codigo/CSV/juegos mas jugados al año/juegos2019.csv')
     pie1 = df_juegos_2019['Hours_watched']
     labels = df_juegos_2019["Game"]
          
@@ -157,7 +157,7 @@ def juegos_vistos_2019():
     }
     return fig
 def juegos_vistos_2020(): 
-    df_juegos_2020 = pd.read_csv('EDA/CSV/juegos mas jugados al año/juegos2020.csv')
+    df_juegos_2020 = pd.read_csv('Codigo/CSV/juegos mas jugados al año/juegos2020.csv')
     pie1 = df_juegos_2020['Hours_watched']
     labels = df_juegos_2020["Game"]
          
@@ -186,7 +186,7 @@ def juegos_vistos_2020():
     }
     return fig
 def juegos_vistos_2021(): 
-    df_juegos_2021 = pd.read_csv('EDA/CSV/juegos mas jugados al año/juegos2021.csv')
+    df_juegos_2021 = pd.read_csv('Codigo/CSV/juegos mas jugados al año/juegos2021.csv')
     pie1 = df_juegos_2021['Hours_watched']
     labels = df_juegos_2021["Game"]
          
@@ -215,7 +215,7 @@ def juegos_vistos_2021():
     }
     return fig
 def juegos_vistos_2022(): 
-    df_juegos_2022 = pd.read_csv('EDA/CSV/juegos mas jugados al año/juegos2022.csv')
+    df_juegos_2022 = pd.read_csv('Codigo/CSV/juegos mas jugados al año/juegos2022.csv')
     pie1 = df_juegos_2022['Hours_watched']
     labels = df_juegos_2022["Game"]
         
@@ -245,16 +245,16 @@ def juegos_vistos_2022():
     return fig
 def juegos_vistos_total():
     
-    df_lol = pd.read_csv('EDA/CSV/juegos mas jugados en 7 años/League of legends.csv')
-    df_cod = pd.read_csv('EDA/CSV/juegos mas jugados en 7 años/Call of Duty Warzone.csv')
-    df_counter = pd.read_csv('EDA/CSV/juegos mas jugados en 7 años/Counter Strike Global Offensive.csv')
-    df_dota2 = pd.read_csv('EDA/CSV/juegos mas jugados en 7 años/Dota 2.csv')
-    df_Fortnite = pd.read_csv('EDA/CSV/juegos mas jugados en 7 años/Fortnite.csv')
-    df_gta = pd.read_csv('EDA/CSV/juegos mas jugados en 7 años/Grand Theft Auto V.csv')
-    df_hearstone = pd.read_csv('EDA/CSV/juegos mas jugados en 7 años/Hearstone.csv')
-    df_minecraft = pd.read_csv('EDA/CSV/juegos mas jugados en 7 años/Minecraft.csv')
-    df_wow = pd.read_csv('EDA/CSV/juegos mas jugados en 7 años/World of Warcraft.csv')
-    df_valorant = pd.read_csv('EDA/CSV/juegos mas jugados en 7 años/Valorant.csv')
+    df_lol = pd.read_csv('Codigo/CSV/juegos mas jugados en 7 años/League of legends.csv')
+    df_cod = pd.read_csv('Codigo/CSV/juegos mas jugados en 7 años/Call of Duty Warzone.csv')
+    df_counter = pd.read_csv('Codigo/CSV/juegos mas jugados en 7 años/Counter Strike Global Offensive.csv')
+    df_dota2 = pd.read_csv('Codigo/CSV/juegos mas jugados en 7 años/Dota 2.csv')
+    df_Fortnite = pd.read_csv('Codigo/CSV/juegos mas jugados en 7 años/Fortnite.csv')
+    df_gta = pd.read_csv('Codigo/CSV/juegos mas jugados en 7 años/Grand Theft Auto V.csv')
+    df_hearstone = pd.read_csv('Codigo/CSV/juegos mas jugados en 7 años/Hearstone.csv')
+    df_minecraft = pd.read_csv('Codigo/CSV/juegos mas jugados en 7 años/Minecraft.csv')
+    df_wow = pd.read_csv('Codigo/CSV/juegos mas jugados en 7 años/World of Warcraft.csv')
+    df_valorant = pd.read_csv('Codigo/CSV/juegos mas jugados en 7 años/Valorant.csv')
 
     lol = go.Scatter(
                     x = df_lol["Year"],
@@ -339,7 +339,7 @@ def juegos_vistos_total():
 
 def tipo_juegos(): 
     
-    df_tipo_juegos = pd.read_csv('EDA/CSV/tipo de juego en 7 años/tipo juegos en 7 años.csv')
+    df_tipo_juegos = pd.read_csv('Codigo/CSV/tipo de juego en 7 años/tipo juegos en 7 años.csv')
     
     Data = go.Bar(x = df_tipo_juegos["Tipo de juego"],
                 y = df_tipo_juegos['Recuento'],
@@ -359,7 +359,7 @@ def tipo_juegos():
     return fig
 
 def viewers(): 
-    df_viewer_total = pd.read_csv('EDA/CSV/total viewer 7 años/total viewers 7 años.csv')
+    df_viewer_total = pd.read_csv('Codigo/CSV/total viewer 7 años/total viewers 7 años.csv')
     data = go.Scatter(
                     x = df_viewer_total["Year"],
                     y = df_viewer_total['Hours_watched'],
@@ -376,7 +376,7 @@ def viewers():
     return fig    
     
 def viewer_mes(): 
-    df_viewer_mes = pd.read_csv('EDA/CSV/viewer por mes/visualizaciones por mes.csv')
+    df_viewer_mes = pd.read_csv('Codigo/CSV/viewer por mes/visualizaciones por mes.csv')
     
     Data = go.Bar(x = df_viewer_mes["Month"],
                 y = df_viewer_mes['Hours_watched'],
@@ -397,7 +397,7 @@ def viewer_mes():
 
 def pico_viewer(): 
     
-    df_pico_viewer = pd.read_csv('EDA/CSV/pico viewer en 7 años/pico visualizaciones en 7 años.csv')
+    df_pico_viewer = pd.read_csv('Codigo/CSV/pico viewer en 7 años/pico visualizaciones en 7 años.csv')
     
     Data = go.Bar(x = df_pico_viewer["Year"],
                 y = df_pico_viewer['Peak_viewers'],
@@ -416,10 +416,10 @@ def pico_viewer():
     
     return fig
 def comparativa(): 
-    df_twitch = pd.read_csv('EDA/CSV/pico viewer en 7 años/twitch.csv')
-    df_2022_españa = pd.read_csv('EDA/CSV/pico viewer en 7 años/mundial 2022 españa.csv')
-    df_2022_francia= pd.read_csv('EDA/CSV/pico viewer en 7 años/mundial 2022 francia.csv')
-    df_2010 = pd.read_csv('EDA/CSV/pico viewer en 7 años/mundial 2010.csv')
+    df_twitch = pd.read_csv('Codigo/CSV/pico viewer en 7 años/twitch.csv')
+    df_2022_españa = pd.read_csv('Codigo/CSV/pico viewer en 7 años/mundial 2022 españa.csv')
+    df_2022_francia= pd.read_csv('Codigo/CSV/pico viewer en 7 años/mundial 2022 francia.csv')
+    df_2010 = pd.read_csv('Codigo/CSV/pico viewer en 7 años/mundial 2010.csv')
     
     españa_2022 = go.Bar(x = df_2022_españa["Game"],
                 y = df_2022_españa['Peak_viewers'],
